@@ -1,10 +1,11 @@
 package mapper;
 
-import com.example.demo.dto.BankDto;
-import com.example.demo.entity.Bank;
-import com.example.demo.mapper.BankMapper;
+import com.example.finalbank.dto.BankDto;
+import com.example.finalbank.entity.Bank;
+import com.example.finalbank.mapper.BankMapper;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
